@@ -55,7 +55,7 @@ const Nav = () => {
               )}
             </Popover>
             <Link to="/sermons" className="text-gray-800 hover:text-gray-600">
-              말씀
+              설교
             </Link>
             <Link to="/hymn" className="text-gray-800 hover:text-gray-600">
               찬양
