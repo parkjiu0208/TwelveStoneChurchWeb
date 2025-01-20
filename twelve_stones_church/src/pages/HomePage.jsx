@@ -20,18 +20,18 @@ const HomePage = () => {
   };
 
   return (
-    <section id="home" className="flex flex-col justify-center items-center py-16 bg-white min-h-screen">
-      <div className="container mx-auto px-4 flex flex-col justify-center items-center">
-        <div className="max-w-3xl w-full">
+    <section id="home" className="flex flex-col justify-center items-center bg-white">
+      <div className="container mx-auto px-4 pt-4">
+        <div className="w-full">
           <Slider {...settings}>
             <div className="slider-item">
-              <img src={개업예배} alt="개업예배" className="slider-image" />
+              <img src={개업예배} alt="개업예배" className="slider-image w-full h-auto object-cover" />
             </div>
             <div className="slider-item">
-              <img src={개업예배준비} alt="개업예배준비" className="slider-image" />
+              <img src={개업예배준비} alt="개업예배준비" className="slider-image w-full h-auto object-cover" />
             </div>
             <div className="slider-item">
-              <img src={성탄청년} alt="성탄청년" className="slider-image" />
+              <img src={성탄청년} alt="성탄청년" className="slider-image w-full h-auto object-cover" />
             </div>
           </Slider>
           <div className="flex flex-col justify-center items-center mt-8">
@@ -51,7 +51,7 @@ const SampleNextArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: 'block', background: 'gray' }}
+      style={{ ...style, display: 'block', position: 'absolute', right: '10px', top: '50%', transform: 'translateY(-50%)', zIndex: 1 }}
       onClick={onClick}
     />
   );
@@ -62,7 +62,7 @@ const SamplePrevArrow = (props) => {
   return (
     <div
       className={className}
-      style={{ ...style, display: 'block', background: 'gray' }}
+      style={{ ...style, display: 'block', position: 'absolute', left: '10px', top: '50%', transform: 'translateY(-50%)', zIndex: 1 }}
       onClick={onClick}
     />
   );
