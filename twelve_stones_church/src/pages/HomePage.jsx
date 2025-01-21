@@ -25,20 +25,22 @@ const HomePage = () => {
         <div className="w-full">
           <Slider {...settings}>
             <div className="slider-item">
-              <img src={개업예배} alt="개업예배" className="slider-image w-full h-auto object-cover" />
+              <img src={개업예배} alt="개업예배" className="slider-image" />
             </div>
             <div className="slider-item">
-              <img src={개업예배준비} alt="개업예배준비" className="slider-image w-full h-auto object-cover" />
+              <img src={개업예배준비} alt="개업예배준비" className="slider-image" />
             </div>
             <div className="slider-item">
-              <img src={성탄청년} alt="성탄청년" className="slider-image w-full h-auto object-cover" />
+              <img src={성탄청년} alt="성탄청년" className="slider-image" />
             </div>
           </Slider>
           <div className="flex flex-col justify-center items-center mt-8">
             <div className="rounded-full bg-gray-200 text-gray-800 text-center py-4 px-8">
               2025 표어
             </div>
-            <p className="text-gray-600 mt-2">"찬양하고 감사하라!"</p>
+            <p className="text-stone-600 text-xl mt-2">"찬양하고 감사하라!"</p>
+            <hr className="w-full border-t border-gray-300 my-4" />
+            <p className="text-gray-600">여호와께 감사하라 그는 선하시며 그의 인자하심이 영원함이로다 (대상 16장 34절) </p>
           </div>
         </div>
       </div>
