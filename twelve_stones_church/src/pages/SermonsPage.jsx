@@ -4,7 +4,7 @@ const SermonsPage = () => {
   return (
     <section id="sermons" className="py-16 bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">설교</h2>
+        <h2 className="text-3xl font-bold text-gray-800 text-center">설교</h2>
         <div className="max-w-3xl mx-auto">
           <p className="text-gray-600 mb-4 text-center">
             실시간 설교를 들으시려면 아래 링크를 클릭하세요. 
@@ -15,8 +15,8 @@ const SermonsPage = () => {
           <div className="flex justify-center">
             <a href="https://www.youtube.com/@twelveStonesChurch/live" target="_blank" rel="noopener noreferrer">
               <iframe
-                width="auto"
-                height="auto"
+                width="1008"
+                height="567"
                 src="https://www.youtube.com/embed/live_stream?channel=UCtwelveStonesChurch"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
