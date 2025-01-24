@@ -9,6 +9,8 @@ const NewsPage = () => {
             <div className="max-w-3xl mx-auto">
               <p className="text-gray-600 mb-4 text-center">
                 교회소식은 다음과 같습니다.
+
+                이번 주 주보입니다.
               </p>
             </div>
           </div>

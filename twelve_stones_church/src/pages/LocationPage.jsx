@@ -1,4 +1,5 @@
 import React from 'react';
+import Map from '../components/Map';
 
 const LocationPage = () => {
 
@@ -12,6 +13,7 @@ const LocationPage = () => {
                 주소는 경기 안양시 만안구 덕천로 53, 3층입니다.
               </p>
             </div>
+            <Map />
           </div>
         </section>
       )
